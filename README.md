@@ -7,7 +7,7 @@ Example usage:
 hooks:
   build: |
     mkdir -p .global/bin/
-    wget -O .global/bin/wkhtmltopdf https://github.com/matthiaz/wkhtmltopdf-binaries/bin/amd64/0.12.15/raw/master/bin/wkhtmltopdf
+    wget -O .global/bin/wkhtmltopdf https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/bin/amd64/0.12.5/wkhtmltopdf
     chmod +x .global/bin/wkhtmltopdf
 ```
 
