@@ -10,3 +10,7 @@ hooks:
     wget -O .global/bin/wkhtmltopdf https://github.com/matthiaz/wkhtmltopdf-binaries/bin/amd64/0.12.15/raw/master/bin/wkhtmltopdf
     chmod +x .global/bin/wkhtmltopdf
 ```
+
+For .deb .rpm and source packages please go to: 
+
+https://github.com/wkhtmltopdf/wkhtmltopdf/releases
