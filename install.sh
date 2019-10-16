@@ -1,14 +1,15 @@
 #!/bin/bash
+echo "creating wkhtmltopdf folder"
 mkdir wkhtmltopdf
 cd wkhtmltopdf
 
-#download binary
+echo "download binary"
 mkdir bin
 cd bin
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/bin/amd64/0.12.5/wkhtmltopdf
 cd ..
 
-#download libs
+echo "download libs"
 mkdir lib
 cd lib
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgstreamer-1.0.so.0
