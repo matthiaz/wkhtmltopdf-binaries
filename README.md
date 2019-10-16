@@ -12,9 +12,11 @@ hooks:
     chmod +x .global/bin/wkhtmltopdf
     wget -O .global/lib/libjpeg.so.8 https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libjpeg.so.8
     wget -O .global/lib/libpng16.so.16 https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpng16.so.16
+    wget -O .global/lib/libpng12.so.0 https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpng12.so.0
     
-post_deploy: |
-  export LD_LIBRARY_PATH=/app/.global/lib/
+web:
+  commands:
+    start: "export LD_LIBRARY_PATH=/app/.global/lib/ && /usr/sbin/php-fpm7.3"
 ```
 
 For .deb .rpm and source packages please go to: 
