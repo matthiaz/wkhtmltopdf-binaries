@@ -39,7 +39,7 @@ wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libic
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpcre.so.3
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libXau.so.6
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpthread.so.0
-#wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libz.so.1
+wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libz.so.1
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/liborc-0.4.so.0
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libdl.so.2
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgstvideo-1.0.so.0
@@ -54,7 +54,7 @@ wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libm.
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libXdmcp.so.6
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libfreetype.so.6
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libQt5Network.so.5
-#wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libc.so.6
+wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libc.so.6
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpng12.so.0
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libwoff2common.so.1.0.2
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libQt5Core.so.5
