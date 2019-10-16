@@ -7,9 +7,6 @@ Example usage:
 hooks:
   build: |    curl -Ls https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/install.sh | bash
     
-web:
-  commands:
-    start: "export LD_LIBRARY_PATH=/app/wkhtmltopdf/lib/ && export PATH=$PATH:/app/wkhtmltopdf/bin/ && /usr/sbin/php-fpm7.3"
 ```
 
 For .deb .rpm and source packages please go to: 
