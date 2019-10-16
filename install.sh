@@ -17,7 +17,7 @@ wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgs
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libresolv.so.2
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libQt5Sensors.so.5
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libsqlite3.so.0
-#wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libicudata.so.63
+wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libicudata.so.63
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgstpbutils-1.0.so.0
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgmodule-2.0.so.0
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/liblzma.so.5
@@ -33,7 +33,7 @@ wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libdo
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libX11.so.6
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libwoff2dec.so.1.0.2
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libwebp.so.6
-#wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgstfft-1.0.so.0
+wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgstfft-1.0.so.0
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libGLX.so.0
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libicui18n.so.63
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpcre.so.3
@@ -46,7 +46,7 @@ wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgs
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libharfbuzz.so.0
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libjpeg.so.8
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgstapp-1.0.so.0
-#wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libbrotlidec.so.1
+wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libbrotlidec.so.1
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgcc_s.so.1
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libm.so.6
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libuuid.so.1
@@ -56,9 +56,9 @@ wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgs
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libQt5Network.so.5
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libc.so.6
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpng12.so.0
-#wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libwoff2common.so.1.0.2
+wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libwoff2common.so.1.0.2
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libQt5Core.so.5
-#wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpcre2-16.so.0
+wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpcre2-16.so.0
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libhyphen.so.0
 #wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libbrotlicommon.so.1
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libQt5WebKit.so.5
