@@ -7,6 +7,7 @@ echo "download binary"
 mkdir bin
 cd bin
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/bin/amd64/0.12.5/wkhtmltopdf
+chmod +x wkhtmltopdf
 cd ..
 
 echo "download libs"
