@@ -82,3 +82,6 @@ wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libQt
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libQt5Qml.so.5
 wget https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libgio-2.0.so.0
 cd ..
+
+cd .. 
+rm install.sh
