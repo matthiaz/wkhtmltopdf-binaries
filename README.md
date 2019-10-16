@@ -5,18 +5,11 @@ This repo contains wkhtmltopdf binaries that can be used to quickly download the
 Example usage:
 ```
 hooks:
-  build: |
-    mkdir -p .global/bin/
-    mkdir -p .global/lib/
-    wget -O .global/bin/wkhtmltopdf https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/bin/amd64/0.12.5/wkhtmltopdf
-    chmod +x .global/bin/wkhtmltopdf
-    wget -O .global/lib/libjpeg.so.8 https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libjpeg.so.8
-    wget -O .global/lib/libpng16.so.16 https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpng16.so.16
-    wget -O .global/lib/libpng12.so.0 https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/lib/amd64/libpng12.so.0
+  build: |    curl -Ls https://github.com/matthiaz/wkhtmltopdf-binaries/raw/master/install.sh | bash
     
 web:
   commands:
-    start: "export LD_LIBRARY_PATH=/app/.global/lib/ && /usr/sbin/php-fpm7.3"
+    start: "export LD_LIBRARY_PATH=/app/wkhtmltopdf/lib/ && export PATH=$PATH:/app/wkhtmltopdf/bin/ && /usr/sbin/php-fpm7.3"
 ```
 
 For .deb .rpm and source packages please go to: 
