@@ -2,7 +2,7 @@
 GLIB_VERSION=$(ldd --version | awk '/ldd/{print $NF}')
 
 if [ $GLIB_VERSION == "2.19" ]; then
-    LD_PRELOAD="$PLATFORM_APP_DIR/lib/libpng16.so.16 $PLATFORM_APP_DIR/lib/libstdc++.so.6 $PLATFORM_APP_DIR/lib/libz.so.1 $PLATFORM_APP_DIR/lib/libm.so.6" $PLATFORM_APP_DIR/./wkhtmltopdf "$@"
+    LD_PRELOAD="$PLATFORM_APP_DIR/lib/libpng16.so.16 $PLATFORM_APP_DIR/lib/libstdc++.so.6 $PLATFORM_APP_DIR/lib/libz.so.1 $PLATFORM_APP_DIR/lib/libm.so.6" $PLATFORM_APP_DIR/bin/./wkhtmltopdf "$@"
 else
-    $PLATFORM_APP_DIR/./wkhtmltopdf "$@"
+    $PLATFORM_APP_DIR/bin/./wkhtmltopdf "$@"
 fi
